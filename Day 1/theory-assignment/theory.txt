@@ -1,0 +1,50 @@
+1. What is Emmet?
+Emmet is a set of plug-ins for text editors that allow for high-speed coding and editing in HTML, XML, XSLT, and other structured code formats via content assist.
+
+2. What is CDN (Content Delivery Network)?
+A content delivery network (CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content. A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos.
+
+3. What is Cross-Origin?
+The crossorigin attribute in HTML, is valid on the <audio>, <img>, <link>, <script>, and <video> elements, provides support for CORS, defining how the element handles cross-origin requests, thereby enabling the configuration of the CORS requests for the element's fetched data. Depending on the element, the attribute can be a CORS settings attribute.
+
+4. What is the difference between async and defer?
+
+a).From Akshay Saini's Video:
+
+Without async/defer : Browser stops the html parsing once script tag is encountered. It resumes parsing only after script is fetched and executed. 
+
+  Async : Html parsing is done in parallel while scripts are being fetched from the network and executed.
+  Once the script is done with execution, html parsing is resumed. This can be used for external scripts like google analytics. 
+  It is better to avoid async for scripts that are dependent on other scripts since we dont know in which order scripts will be executed.
+
+  Defer : Similar to async, Html parsing is done in parallel while scripts are being fetched from the network. But scripts are executed only after the 
+  html parsing is done.
+
+
+b). Alternate Explanation:
+async and defer are two keywords in JavaScript that allow you to create functions that run asynchronously.
+
+    defer => defer is used for scripts that need the whole DOM and/or their relative execution order is important. 
+    async => async is used for independent scripts, like counters or ads,and their relative execution order does not matter.
+
+    async executes as soon as possible while defer runs in sequence toward the end of the loading process, just before the 
+    DOMContentLoaded event.
+
+    async:
+        1. async is used for independent scripts
+        2. Downloads in the background at a low priority (same as defer)
+        3. Can interrupt page rendering to execute
+        4. Executes as soon as possible and in no particular order
+
+     =>  async is best for very high priority JavaScript resources that should run as early as possible in the loading process. 
+
+    defer:
+        1. Downloads in the background at a low priority (same as async)
+        2. Won't interrupt page rendering to execute
+        3. Executes in sequence just before the DOMContentLoaded event
+
+     =>    defer is ideal for general JavaScript resources that aren't critical to the initial rendering of the page and can be run 
+           later in the loading process.
+
+
+
