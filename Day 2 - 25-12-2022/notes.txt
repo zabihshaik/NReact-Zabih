@@ -1,0 +1,45 @@
+//No class today as there was issue with backend. Just some conversation 
+
+about JS and Interview Tips.
+
+this depends on how you call the function.
+3 functions: call, bind, apply
+
+In Arrow func, it takes this of window
+In a normal func, it takes this of it's parent
+
+*Revise Namaste JS Videos
+
+Interview Tips from Akshay on 25-12-2022:
+
+1. (Brutally honest) In interviews, a lot of things depend on your luck.Why? 
+
+Because, most companies don't spend time/resources to train their 
+
+interviewers well.
+2. A person can be a Good Software Engineer, but not good interviewer.
+3. Luck - Can't Control
+
+What can we control?
+1. Our Preparation:
+	a. 50% - Technical skills - everyone knows
+	b. 50% - Communication Skills
+		- speak your thoughts while you code
+		   - practice this even when you are coding alone
+		- if you can't explain, interviewer thinks you don't know.
+		- you don't know work alone in company
+		   - companies expect you to have good communication skills
+		   - it's a brutal truth, you should know English.
+		- mock interview
+	c. Preparation on the Interview Day
+		- you should not be hustling at last moment	
+		- pen / paper
+		- waterbottle
+		- keep your camera open
+		- keep your phone on silent
+		- router UPS (power backup)
+	d. CONFIDENCE COMES FROM PREPARATION
+		(not just your technical preparation)
+2. Just stay focussed, and don't panic. Even if interview goes wrong, it's 
+
+OK.
